@@ -21,3 +21,19 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+.enstaved-dark {
+  color: #232323;
+}
+
+.enstaved-secondary {
+  color: #797A7C;
+}
+
+.enstaved-warning {
+  color: #7B5C3D;
+}
+
+.enstaved-danger {
+  color: #661010;
+}
