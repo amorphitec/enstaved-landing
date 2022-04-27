@@ -1,10 +1,17 @@
+@font-face {
+    font-family: 'NorthDragon';
+    src: url('../fonts/NorthDragon.eot'); /* IE9 Compat Modes */
+    src: url('..fonts/North Dragon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    src: url('../fonts/NorthDragon.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/NorthDragon.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/NorthDragon.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
 body {
-    /*font-family: 'Aclonica', sans-serif;*/
-    /*font-family: 'Almendra SC', serif;*/
-    /*font-family: 'Berkshire Swash', cursive;*/
-    font-family: 'Cinzel Decorative', cursive;
-    /*font-family: 'Laila', sans-serif;*/
-    /*font-family: 'Marcellus SC', serif;*/
+    font-family: 'NorthDragon'
 }
 
 .main {
@@ -15,12 +22,11 @@ body {
     background-repeat: repeat;
 }
 
-.scroll {
-    background-image: url('../img/scroll_02.png');
-    /*background-size: cover;*/
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
+.blur {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  height: 100vh;
+}    
 
 .enstaved-dark {
   color: #232323;
