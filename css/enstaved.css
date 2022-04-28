@@ -23,7 +23,7 @@ body {
 }
 
 .blur {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(8px);
   height: 100vh;
 }    
@@ -42,4 +42,8 @@ body {
 
 .enstaved-danger {
   color: #661010;
+}
+
+.enstaved-kickstarter {
+  color: #05CE78;
 }
