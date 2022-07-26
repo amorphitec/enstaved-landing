@@ -87,7 +87,7 @@
                     "product": {
                       "iframe": true,
                       "DOMEvents": {
-                        [`click .${this.classes.product.button.split(' ').join('.')}`]: function (event) {
+                        'click .shopify-buy__btn': function (event) {
                           fbq('track','AddToCart');
                         }
                       },
