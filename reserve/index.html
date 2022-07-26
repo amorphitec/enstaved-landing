@@ -87,7 +87,7 @@
                     "product": {
                       "iframe": true,
                       "DOMEvents": {
-                        'click .button': function (event) {
+                        [`click .${this.classes.product.button.split(' ').join('.')}`]: function (event) {
                           fbq('track','AddToCart');
                         }
                       },
