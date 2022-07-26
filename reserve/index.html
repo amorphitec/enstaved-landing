@@ -86,6 +86,11 @@
                   options: {
                     "product": {
                       "iframe": true,
+                      "DOMEvents": {
+                        'click .option-select': function (event) {
+                          fbq('track','AddToCart');
+                        }
+                      },
                       "styles": {
                         "product": {
                           "@media (min-width: 601px)": {
